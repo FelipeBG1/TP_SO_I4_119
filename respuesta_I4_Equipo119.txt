@@ -1,0 +1,15 @@
+EQUIPO 119:
+ALFA: Gimenez Karen ; BETA: Cecilia Ybarrola; GAMMA: Felipe Bustos Gil.
+
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+ *El color de fondo es AZUL
+
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+ *El color de fondo es AMARILLO
+
+C- ¿Qué color de fondo tiene su página en el MASTER?
+ *El color de fondo es AZUL
+
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+ *El favicon de ALFA-
+Para evitar que se sobrescribieran ambos archivos, llegamos a la conclusion que lo ideal era cambiarle el nombre, aun asi el favicon definitivo fue el de ALFA.
