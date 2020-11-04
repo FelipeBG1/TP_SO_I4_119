@@ -13,3 +13,26 @@ C- ¿Qué color de fondo tiene su página en el MASTER?
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
  *El favicon de ALFA-
 Para evitar que se sobrescribieran ambos archivos, llegamos a la conclusion que lo ideal era cambiarle el nombre, aun asi el favicon definitivo fue el de ALFA.
+
+E- ¿Algún integrante tuvo problemas al hacer el push?
+ *Si, Beta tuvo problemas
+
+F- ¿Qué problemas surgieron?
+ *A la hora de hacer el push, Beta tuvo problemas al no tener el repositorio local actualizado
+
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+ *Beta, para poder realizar el push, debio hacer un git pull para traer los nuevos elementos del
+ repositorio al repositorio local antes antes de proceder a los comandos para agregar, hacer un commit y pushear.
+ Tambien suponemos que alguna falla se pudo generar por la linea h2 que aparecia dos veces por un error (solo se
+ cambio uno de los h2 por h3). Antes de hacer el add durante los inconvenientes al pushear, Beta corrigio el index.
+ Esta teoria se penso por el error que tubo gamma al hacer un merge en puntos anteriores.
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+ *Si todos hubiesemos usado el comando push -f, que permite realizar un push sin tener el repositorio local 
+actualizado, hubiesemos pisado los cambios realizados por la persona anterior en el repositorio remoto,
+dejando solo los cambios realizados por Gamma
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+ *Para tener todos los <p> de index en desarrollo, debemos hacer un git merge de TESTING hacia DESARROLLO
